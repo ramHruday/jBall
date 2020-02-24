@@ -10,14 +10,6 @@ function random(min, max) {
   return num;
 }
 
-interface IBall {
-  x: number;
-  y: number;
-  velX: number;
-  velY: number;
-  color: string;
-  size: number;
-}
 class Ball {
   x: number;
   y: number;
