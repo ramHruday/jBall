@@ -72,7 +72,7 @@ function loop() {
   for (let i = 0; i < balls.length; i++) {
     balls[i].draw();
     balls[i].update();
-    balls[i].collisionDetect();
+//     balls[i].collisionDetect();
   }
 
   requestAnimationFrame(loop);
