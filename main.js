@@ -11,12 +11,12 @@ function random(min, max) {
 }
 
 class Ball {
-  x: number;
-  y: number;
-  velX: number;
-  velY: number;
-  color: string;
-  size: number;
+  x;
+  y;
+  velX;
+  velY;
+  color;
+  size;
   constructor(x, y, velX, velY, color, size) {
     this.x = x;
     this.y = y;
